@@ -23,4 +23,4 @@ A simple and modern web application built with HTML, CSS, and JavaScript to mana
 - Improve validation and user feedback.
 - Optimize for better performance with large datasets.
   
-#Feel free to fork this project and contribute!
+# Feel free to fork this project and contribute!
