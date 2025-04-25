@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  body {
+    background: linear-gradient(135deg, #1f2937, #4b5563);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  .container {
+    background: #111827;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+  }
+  input, select, button {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  input, select {
+    background: #1f2937;
+    color: #fff;
+  }
+  button {
+    background: #10b981;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  button:hover {
+    background: #059669;
+  }
+  ul {
+    list-style: none;
+    margin-top: 1rem;
+  }
+  li {
+    background: #374151;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .income { color: #10b981; }
+  .expense { color: #ef4444; }
+  .summary {
+    margin-top: 1rem;
+    background: #1f2937;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  
